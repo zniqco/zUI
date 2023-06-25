@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "zui_set_scale",
+  "name": "zui",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

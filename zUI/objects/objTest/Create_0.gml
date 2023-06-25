@@ -15,10 +15,8 @@ with (zui_main()) {
 
 		_window_id = window_id;
 		callback = function (_id, _value) {
-			with (_window_id) {
-				__scalex = _value / 100;
-				__scaley = _value / 100;
-			}
+			with (_window_id)
+				zui_set_scale(_value / 100, _value / 100);
 		};
 	}
  
