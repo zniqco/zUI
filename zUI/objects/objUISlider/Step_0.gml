@@ -1,11 +1,10 @@
 if (pvalue != value) {
- var scroll_value = ui_lerp_filter(value, minimum, maximum);
- var scroll_x = scroll_value * (__width - 16) + 8;
+	var scroll_value = inverse_lerp(minimum, maximum, value);
+	var scroll_x = scroll_value * (__width - 16) + 8;
 
- cell.__x = scroll_x;
- pvalue = value;
+	handle.__x = scroll_x;
+	pvalue = value;
  
- if (callback >= 0)
-  script_execute(callback, id, value);
+	if (is_callable(callback))
+		callback(id, value);
 }
-

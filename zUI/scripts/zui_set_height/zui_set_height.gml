@@ -1,8 +1,3 @@
-/// @description zui_set_height(height)
-/// @param height
-function zui_set_height(argument0) {
-	__height = argument0;
-
-
-
+function zui_set_height(_height) {
+	__height = _height;
 }

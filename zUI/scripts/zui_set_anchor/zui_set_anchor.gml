@@ -1,10 +1,4 @@
-/// @description zui_set_anchor(anchorx,anchory)
-/// @param anchorx
-/// @param anchory
-function zui_set_anchor(argument0, argument1) {
-	__anchorx = argument0;
-	__anchory = argument1;
-
-
-
+function zui_set_anchor(_anchor_x, _anchor_y) {
+	__anchorx = _anchor_x;
+	__anchory = _anchor_y;
 }

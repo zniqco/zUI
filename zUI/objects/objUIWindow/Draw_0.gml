@@ -1,3 +1,1 @@
-draw_set_color($ffffff);
-ui_draw_sprite_panel(sprWindowPanel, 0, 16, -15, -15, __width + 30, __height + 30);
-
+draw_sprite_stretched_ext(sprWindowPanel, 0, -15, -15, __width + 30, __height + 30, $ffffff, 1);

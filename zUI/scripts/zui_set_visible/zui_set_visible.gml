@@ -1,8 +1,3 @@
-/// @description zui_set_visible(visible)
-/// @param visible
-function zui_set_visible(argument0) {
-	__visible = argument0;
-
-
-
+function zui_set_visible(_visible) {
+	__visible = _visible;
 }

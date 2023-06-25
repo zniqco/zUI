@@ -1,10 +1,4 @@
-/// @description zui_set_scale(scalex,scaley)
-/// @param scalex
-/// @param scaley
-function zui_set_scale(argument0, argument1) {
-	__scalex = argument0;
-	__scaley = argument1;
-
-
-
+function zui_set_scale(_scale_x, _scale_y) {
+	__scalex = _scale_x;
+	__scaley = _scale_y;
 }

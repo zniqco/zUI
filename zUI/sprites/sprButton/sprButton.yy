@@ -22,7 +22,30 @@
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c631818a-8b3c-493f-aeb5-c58244aeb1da","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
-  "nineSlice": null,
+  "nineSlice": {
+    "resourceType": "GMNineSliceData",
+    "resourceVersion": "1.0",
+    "bottom": 8,
+    "enabled": true,
+    "guideColour": [
+      4294902015,
+      4294902015,
+      4294902015,
+      4294902015,
+    ],
+    "highlightColour": 1728023040,
+    "highlightStyle": 0,
+    "left": 8,
+    "right": 8,
+    "tileMode": [
+      0,
+      0,
+      0,
+      0,
+      0,
+    ],
+    "top": 8,
+  },
   "origin": 0,
   "parent": {
     "name": "Sprites",

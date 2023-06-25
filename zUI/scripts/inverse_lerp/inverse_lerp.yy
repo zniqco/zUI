@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "test_callback_slider",
+  "name": "inverse_lerp",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

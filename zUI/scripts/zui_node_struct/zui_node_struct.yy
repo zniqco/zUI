@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "zui_shared_qsort",
+  "name": "zui_node_struct",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

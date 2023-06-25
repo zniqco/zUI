@@ -1,29 +1,20 @@
-/// @description zui_create(x,y,object,[depth])
-/// @param x
-/// @param y
-/// @param object
-/// @param [depth]
-function zui_create() {
-	var newid = instance_create(0, 0, objZUIDummy);
+function zui_create(_x, _y, _object) {
+	var newid = instance_create_depth(0, 0, 0, objZUIDummy, zui_node_struct());
 
 	with (newid) {
-	 zui_x_node_init();
-	 __x = argument[0];
-	 __y = argument[1];
-	 __parent = other.id;
+		__x = _x;
+		__y = _y;
+		__parent = other.id;
  
-	 instance_change(argument[2], 1);
+		instance_change(_object, true);
  
-	 if (argument_count >= 4)
-	  depth = argument[3];
+		if (argument_count >= 4)
+			depth = argument[3];
 
-	 visible = 0;
+		visible = false;
 	}
 
 	zui_add_child(newid);
 
 	return newid;
-
-
-
 }

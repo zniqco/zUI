@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "zui_x_child_compare",
+  "name": "zui_arrange_children",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
